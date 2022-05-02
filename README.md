@@ -23,4 +23,4 @@ DATABASE_URL=localhost
 
 DATABASE_USER=postgres
 
-*OBS: esses são os dados padrões do postgres, mas talvez os seus dados estejam diferentes. Configure de acordo
+*OBS: esses são os dados padrões do postgres, mas talvez os seus dados estejam diferentes. Configure de acordo.
