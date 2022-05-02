@@ -1,4 +1,5 @@
 CREATE TABLE IF NOT EXISTS config_escola (
+	id uuid NOT NULL DEFAULT uuid_generate_v1(),
 	inicio_1bimestre date NOT NULL,
 	fim_1bimestre date NOT NULL,
 	inicio_2bimestre date NOT NULL,
@@ -7,7 +8,9 @@ CREATE TABLE IF NOT EXISTS config_escola (
 	fim_3bimestre date NOT NULL,
 	inicio_4bimestre date NOT NULL,
 	fim_4bimestre date NOT NULL,
-	media_aprovacao float4 NOT NULL
+	media_aprovacao float4 NOT NULL,
+	frequencia_aprovacao float4 NOT NULL,
+	CONSTRAINT config_escola_pk PRIMARY KEY (id)
 );
 
 
